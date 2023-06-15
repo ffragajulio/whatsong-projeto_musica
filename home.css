@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: #333333;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60px;
+    margin-right: 5px;
+}
+
+.logo-escrito{
+    font-size: 35px;
+    color: red;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section-2{
+    display: flex;
+    align-items: center;
+}
+
+#section-1{
+    display: flex;
+    align-items: center;
+}
+
+.a-1{
+    margin-right: 15px;
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.a-2{
+    margin-right: 30px;
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.oqvc{
+    width: 250px;
+    height: 30px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+
+    float:left;
+    padding-left:5px;
+}
+
+.oqvc::placeholder{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+#user{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 15px;
+}
+
+main{
+    background-color: #434343;
+}
+
+.title{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#primeiro-title{
+    padding-top: 10px;
+}
+
+#title-10{
+    padding-top: 5px;
+}
+
+#spotify{
+    margin-left: 47px;
+}
+
+#spotify-500{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+#spotify-playlists{
+    margin-left: 44px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#footer-texto{
+    font-size: 27px;
+    color: white;
+}
